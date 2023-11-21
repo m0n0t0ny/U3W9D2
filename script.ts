@@ -1,3 +1,9 @@
+const initiateAccount = document.getElementById("initiate-account") as HTMLButtonElement;
+const deposit = document.getElementById("deposit") as HTMLButtonElement;
+const withdraw = document.getElementById("withdraw") as HTMLButtonElement;
+
+initiateAccount.addEventListener("click", set balance init to input value for that account)
+
 class Account {
   account: string;
   balanceInit: number = 0;
